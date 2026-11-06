@@ -67,3 +67,9 @@ Ordered by expected gain on the evaluation split:
 5. **Better attempt_2.** Today attempt_2 is the second-simplest fitted program or the input. Use augmentation agreement instead: run the solver on rotated/flipped versions of the task and pick the answer that appears most often after transforming back.
 
 Measure every change on the evaluation split, never on the training split alone, since gains on the training split often do not transfer.
+
+## الرخصة | License
+
+الكود برخصة [MIT](LICENSE). أما البيانات والمصادر الخارجية فتبقى على شروطها الأصلية.
+
+The code is under the [MIT License](LICENSE). Data and third-party sources keep their own terms.
