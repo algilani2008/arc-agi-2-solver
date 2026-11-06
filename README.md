@@ -1,5 +1,7 @@
 # ARC-AGI-2 — DSL Program-Search Solver
 
+**🌐 الموقع:** https://algilani2008.github.io/arc-agi-2-solver/ | **📖 الشرح بالعربي:** [شرح_المشروع.md](شرح_المشروع.md)
+
 `pipeline.py` fits a library of 105 candidate DSL programs to each task's train pairs, keeps only the programs that reproduce **every** train output exactly, ranks them by simplicity, and uses the top two as `attempt_1` / `attempt_2`.
 
 It depends only on `numpy` (see `requirements.txt`), so it runs offline inside a Kaggle code-competition notebook.
